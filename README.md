@@ -196,11 +196,15 @@ $$
 
 ## Сборка и запуск
 
-### 🔹 Через Qt Creator
-1. Откройте `RasterizerDemo.pro`  
-2. Соберите проект (`Ctrl + B`)  
-3. Запустите (`Ctrl + R`)
+Для запуска программы на Windows:
 
+1. Скачайте архив из релиза:  
+   [RasterizerDemo Release](https://github.com/Polina707-lab/ImageProcessor/releases/tag/v1.0)
+2. Распакуйте архив.  
+
+3. Запустите файл:  
+   `Pixel.exe`
+   
 ### 🔹 Через Docker
 ```bash
 docker build -t rasterizer-demo .

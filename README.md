@@ -219,7 +219,7 @@ docker run -it --rm -e DISPLAY=host.docker.internal:0.0 polinash25941/pixel-app
 Условия для Windows:
 
 Для корректного запуска графического интерфейса Qt через Docker необходимо:
-Установить [XLaunch](
+Установить [XLaunch](https://sourceforge.net/projects/xming)
 
 При запуске XLaunch выбрать следующие параметры:
 

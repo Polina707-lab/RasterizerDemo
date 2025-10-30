@@ -1,8 +1,6 @@
 # RasterizerDemo
 
 **Автор:** Шамрук Полина Александровна  
-**Курс:** 1  
-**Группа:** 11  
 
 ---
 
@@ -207,6 +205,8 @@ $$
 ```bash
 docker build -t rasterizer-demo .
 docker run -it --rm -e DISPLAY=host.docker.internal:0.0 rasterizer-demo
+
+---
 
 ## Заключение
 

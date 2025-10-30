@@ -1,0 +1,60 @@
+# === Qt / C++ build files ===
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Qt specific
+moc_*
+qrc_*
+ui_*
+*.qrc.dep
+*.qmlc
+*.jsc
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# === Project settings ===
+*.user
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs and temp ===
+*.log
+*.cache
+*.qmake.stash
+
+# === CMake / Make ===
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.moc
+*.qmake.stash
+
+# === Docker ===
+*.tar
+*.img
+*.pid
+
+# === IDE files ===
+.vscode/
+.idea/
+*.iml
+
+# === Python virtual environments (если случайно есть) ===
+.venv/
+venv/

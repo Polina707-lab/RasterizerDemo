@@ -1,0 +1,101 @@
+QWidget {
+    background-color: #F6EBD8;
+    color: #5C4B42;
+    font-family: "Poppins", "Nunito", "Segoe UI", sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+/* === Меню === */
+QMenuBar {
+    background-color: #F6EBD8;
+    color: #6E5B4E;
+    border-bottom: 3px solid #D6C2A1;
+}
+
+QMenuBar::item:selected {
+    background-color: #EBD3B7;
+    color: #6E5B4E;
+}
+
+/* === Меню (выпадающее) === */
+QMenu {
+    background-color: #FFF9EE;
+    border: 3px solid #D6C2A1;
+}
+
+QMenu::item {
+    padding: 6px 24px;
+    color: #6E5B4E;
+}
+
+QMenu::item:selected {
+    background-color: #F6A87A; /* Apricot */
+    color: white;
+    border-radius: 4px;
+}
+
+/* === Кнопки === */
+QPushButton {
+    background-color: #F6A87A;
+    border: 1px solid #D6C2A1;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: white;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #E58B6B;
+}
+
+QPushButton:pressed {
+    background-color: #D27A59;
+}
+
+/* === Статус-бар === */
+QStatusBar {
+    background-color: #EEDFC4;
+    color: #6E5B4E;
+    border-top: 1px solid #D6C2A1;
+}
+
+/* === Кнопки алгоритмов в меню === */
+QMenu::item#stepAction:selected {
+    background-color: #7FB7E8; /* Step */
+    color: white;
+}
+QMenu::item#ddaAction:selected {
+    background-color: #A6C48A; /* DDA */
+    color: white;
+}
+QMenu::item#bresAction:selected {
+    background-color: #C8A5D4; /* Bresenham */
+    color: white;
+}
+QMenu::item#circAction:selected {
+    background-color: #F4A261; /* Circle */
+    color: white;
+}
+
+/* === Индивидуальные цвета для пунктов меню алгоритмов === */
+QMenu::item#stepAction:selected {
+    background-color: #7FB7E8;  /* Step — нежно-голубой */
+    color: white;
+}
+
+QMenu::item#ddaAction:selected {
+    background-color: #A6C48A;  /* DDA — мягкий зелёный */
+    color: white;
+}
+
+QMenu::item#bresLineAction:selected {
+    background-color: #C8A5D4;  /* Bresenham (line) — лаванда */
+    color: white;
+}
+
+QMenu::item#bresCircleAction:selected {
+    background-color: #F4A261;  /* Bresenham (circle) — абрикос */
+    color: white;
+}

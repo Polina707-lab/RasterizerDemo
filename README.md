@@ -208,7 +208,7 @@ $$
 ### 🔹 Через Docker
 
 Готовый образ доступен на DockerHub:  
-👉 [polinash25941/pixel-app](https://hub.docker.com/repository/docker/polinash25941/pixel-app)
+ [polinash25941/pixel-app](https://hub.docker.com/repository/docker/polinash25941/pixel-app)
 
 Чтобы запустить без сборки вручную:
 ```bash

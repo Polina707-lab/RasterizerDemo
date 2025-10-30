@@ -199,7 +199,7 @@ $$
 Для запуска программы на Windows:
 
 1. Скачайте архив из релиза:  
-   [RasterizerDemo Release](https://github.com/Polina707-lab/ImageProcessor/releases/tag/v1.0)
+   [RasterizerDemo Release](https://github.com/Polina707-lab/RasterizerDemo/releases)
 2. Распакуйте архив.  
 
 3. Запустите файл:  

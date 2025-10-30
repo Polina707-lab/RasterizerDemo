@@ -206,11 +206,34 @@ $$
    `Pixel.exe`
    
 ### 🔹 Через Docker
+
+Готовый образ доступен на DockerHub:  
+👉 [polinash25941/pixel-app](https://hub.docker.com/repository/docker/polinash25941/pixel-app)
+
+Чтобы запустить без сборки вручную:
 ```bash
-docker build -t rasterizer-demo .
-docker run -it --rm -e DISPLAY=host.docker.internal:0.0 rasterizer-demo
+docker pull polinash25941/pixel-app
+docker run -it --rm -e DISPLAY=host.docker.internal:0.0 polinash25941/pixel-app
 ```
 
+Условия для Windows:
+
+Для корректного запуска графического интерфейса Qt через Docker необходимо:
+Установить XLaunch (Xming)
+
+При запуске XLaunch выбрать следующие параметры:
+
+1. Display settings: Multiple windows
+2. Session type: Start no client
+3. Extra settings: Включить “Clipboard” и “Disable access control”
+
+После запуска XLaunch — не закрывайте окно!
+Оно обеспечивает вывод интерфейса из Docker-контейнера.
+
+Затем выполните команды:
+
+docker pull polinash25941/pixel-app
+docker run -it --rm -e DISPLAY=host.docker.internal:0.0 polinash25941/pixel-app
 ---
 
 ## Заключение
